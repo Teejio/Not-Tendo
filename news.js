@@ -10,6 +10,7 @@ data = [
     ];
 newsArray = data;
 var newsHtml = '';
+
 for(i in data){
     newsData = data[i]
  newsHtml += '<h3>' + newsData[0] + '</h3>';

@@ -1,0 +1,156 @@
+@font-face { font-family: Seurat; src: url('fonts/FOT-Seurat Pro UB.otf'); } 
+
+.search {
+    padding-top: 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    vertical-align: middle;
+   
+  }
+  .round {
+    border-radius: 10px;
+    filter: invert(1);
+    
+  }
+  .logo {
+    border-radius: 10px;
+    
+  }
+
+  a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+  h1 {
+    font-family: Ubuntu;
+    text-align:center;
+    
+    color:white;
+  }
+
+  h2 {
+    font-family: Ubuntu;
+    font-weight: 800;
+    text-align:center;
+    
+    color:white;
+    font-size: 20px;
+    transition-duration: 0.5s ;
+  }
+  
+  h2:hover{
+    
+    font-size:  30px;
+    transition-duration: 1s ;
+  }
+  h3 {
+    font-family: Ubuntu;
+    text-align:center;
+    font-size: 30px;
+    
+    color:white;
+  }
+
+
+
+  @keyframes intro {
+
+    0% {transform: translate( 0px, 10px)}
+    100% {transform: translate( 0px, 0px)}
+
+  }
+  @keyframes sin {
+
+    0% {transform: translate( 0px, 3px)}
+    30% {transform: translate( 0px, 0px)}
+
+  }
+ .searchButton{
+  font-family: 'Rubik';
+  border: 2px solid transparent;
+  border-radius:10px 10px 10px 10px;
+  padding: 10px;
+  color:white;
+  background-color: #802323;
+
+ }
+ .searchButton:hover{
+  background-color: #5e1515;
+
+ }
+ .searchButton:active{
+  background-color: #310d0d;
+
+ }
+
+ p{
+  font-family: 'Rubik';
+  font-weight: 500;
+  color:rgb(193, 184, 184);
+
+ }
+  .navbar {
+    padding-top: 3px;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 160px;
+  }
+
+  .TopBar{
+    animation: intro 0.5s;
+    position:absolute;
+  top:0px
+    
+  }
+  input {
+    padding-top: -3px;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 3px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color:white;
+    background-color:#290606;
+  }
+
+  .clicky {
+    width: 500px;
+    height: 500px;
+    transition-duration: 1s;
+  }
+
+  .clicky:hover {
+    width: 530px;
+    height: 530px;
+    transition-duration: 0.5s;
+  }
+
+  .navbutton {
+    background-color: transparent;
+    outline-color: transparent;
+    border: 2px solid transparent;
+    border-radius: 10px;
+  }
+
+  .navbutton:hover {
+    background-color: #00000051;
+    outline-color: transparent;
+    border: 2px solid transparent;
+    transition-duration: 0.25s;
+  }
+
+  .navbutton:active {
+    background-color: #0a2023c0;
+    outline-color: transparent;
+    border: 2px solid transparent;
+    transition-duration: 0.25s;
+  }
