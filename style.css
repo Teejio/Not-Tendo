@@ -26,6 +26,24 @@
     color:white;
   }
 
+  h2 {
+    font-family: Seurat;
+    text-align:center;
+    animation: intro 1s;
+    
+    color:white;
+  }
+
+  h3 {
+    font-family: Seurat;
+    text-align:center;
+    animation: intro 1.3s;
+    font-size: 30px;
+    
+    color:white;
+  }
+
+
   .text {
     animation: intro 1.5s;
   }
@@ -78,10 +96,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    grid-gap: 160px;
   }
 
   .TopBar{
     animation: intro 0.5s;
+    position:absolute;
+  top:0px
     
   }
   input {
@@ -92,6 +113,18 @@
     font-weight: 700;
     color:white;
     background-color:#290606;
+  }
+
+  .clicky {
+    width: 500px;
+    height: 500px;
+    transition-duration: 1s;
+  }
+
+  .clicky:hover {
+    width: 530px;
+    height: 530px;
+    transition-duration: 0.5s;
   }
 
   .navbutton {
